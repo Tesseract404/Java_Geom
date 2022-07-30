@@ -9,11 +9,11 @@ public class testmain {
 
         Cylinder cy1 = new Cylinder();
         System.out.println(">Volume:"+cy1.getVolume());
-        Cylinder cy2 = new Cylinder(4.0);
-        System.out.println(cy2 + " ==> Volume: " + cy2.getVolume());
-        Cylinder cy3 = new Cylinder(4.0, 2.0);
-        System.out.println(cy3 + " ==> Volume: " + cy3.getVolume());
-        Cylinder cy4 = new Cylinder(4.0, 2.0, "violet");
-        System.out.println(cy4 + " ==> Volume: " + cy4.getVolume());
+        Cylinder cy2 = new Cylinder(3.0);
+        System.out.println(cy2 + "> Volume: " + cy2.getVolume());
+        Cylinder cy3 = new Cylinder(5.0, 2.0);
+        System.out.println(cy3 + "> Volume: " + cy3.getVolume());
+        Cylinder cy4 = new Cylinder(6.0, 2.0, "blue");
+        System.out.println(cy4 + "> Volume: " + cy4.getVolume());
     }
 }
